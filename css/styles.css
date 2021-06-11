@@ -7,7 +7,7 @@ header{
     background-color: rgba(248, 246, 244, 1);
 }
 header>img{
-    margin-left: 5%;
+    margin-left: 7%;
 }
 .top{
     display: flex;
@@ -21,4 +21,17 @@ header>img{
 }
 .icon>p{
     font-weight: bolder;
+}
+.big{
+    background-color: rgba(238, 238, 238, 1);
+    padding-left: 5%;
+}
+.big>h3{
+    background-color: rgba(248, 246, 244, 1);
+}
+#big-s{
+    padding-left: 4%;
+}
+.vl-one{
+    border-left: solid 3px rgba(162, 124, 109, 1);
 }
