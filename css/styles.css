@@ -87,3 +87,17 @@ hr{
     font-weight: bold;
     margin-left: 3%; margin-top: 2%;
 }
+.results{
+    background-color: rgba(248, 246, 244, 1);
+    padding-top: 2%;
+    margin-left: 45px; margin-top: 5%;
+    text-align: center;
+}
+footer{
+    background-color:  rgba(248, 246, 244, 1);
+    margin-top: 5%; padding-left: 10%; padding-right: 10%;
+}
+.center{
+    align-items: center;
+    text-align: center;
+}
