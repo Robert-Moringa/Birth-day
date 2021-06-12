@@ -84,5 +84,6 @@ hr{
 .btn{
     background-color: rgba(238, 238, 238, 1);
     color: rgba(174, 169, 168, 1);
-    
+    font-weight: bold;
+    margin-left: 3%; margin-top: 2%;
 }
