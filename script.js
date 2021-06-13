@@ -29,8 +29,5 @@ function calculated(){
       document.getElementById("kwasi").innerHTML = "Kindly select a your gender";
     }
 
-    
-
-    
 }
 calculated();
