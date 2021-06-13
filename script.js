@@ -33,6 +33,7 @@ function calculated(){
 
     function validateForm() {
         var v = parseInt(document.getElementById("Day").value);
+        var mn= parseInt(document.getElementById("Month").value)
         if (v == 0 && v>31) {
           alert("Invalid date");
           return false;
