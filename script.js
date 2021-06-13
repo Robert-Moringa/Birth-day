@@ -31,16 +31,15 @@ function calculated(){
       document.getElementById("kwasi").innerHTML = "Kindly select a your gender";
     }
 
-    
+    function validateForm() {
+        var v = parseInt(document.getElementById("Day").value);
+        if (v == 0 && v>31) {
+          alert("Invalid date");
+          return false;
+        }
 
     
 }
 
-function validateForm() {
-    var v = parseInt(document.getElementById("Day").value);
-    if (v == 0 && x>31) {
-      alert("Invalid date");
-      return false;
-    }
-  }
+
 
