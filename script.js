@@ -3,7 +3,7 @@
 
 
 function calculated(){
-    event.preventDefault();
+    // event.preventDefault();
 
     var day = parseInt(document.getElementById("Day").value);
     var m = parseInt(document.getElementById("Month").value);
@@ -14,9 +14,9 @@ function calculated(){
 
     const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-    var x = document.getElementById("inputGender").value;
-
     document.getElementById("day").innerHTML = "You were born on a "+ days[d.getDay()];
+
+    var x = document.getElementById("inputGender").value;
 
     if (x="Male"){
       var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
@@ -31,17 +31,8 @@ function calculated(){
       document.getElementById("kwasi").innerHTML = "Kindly select a your gender";
     }
 
-    function validateForm() {
-        var v = parseInt(document.getElementById("Day").value);
-        var mn = parseInt(document.getElementById("Month").value);
-        var yr = parseInt(document.getElementById("Year").value);
-        if (v == 0 && v>31, mn == 0 && mn>12, yr == 0) {
-          alert("Invalid data entered");
-          return false;
-        }
-
-    njsdjdsnhfoanlfsah
+        
 }
-
+calculated();
 
 
