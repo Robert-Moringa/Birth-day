@@ -13,9 +13,10 @@ function calculated(){
 
     const d = new Date(year,month, day);
 
-    const months = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-    document.getElementById("day").innerHTML = "You were born on a "+ months[d.getMonth()];
+    document.getElementById("day").innerHTML = "You were born on a "+ days[d.getDay()];
 
-    document.getElementById("kwasi").innerHTML = "Your Akan Name" +femaleNames[d.getDay()];
+    document.getElementById("kwasi").innerHTML = "Your Akan Name is " +femaleNames[d.getDay()];
 }
+calculated();
