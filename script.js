@@ -35,7 +35,7 @@ function calculated(){
         var v = parseInt(document.getElementById("Day").value);
         var mn = parseInt(document.getElementById("Month").value);
         var yr = parseInt(document.getElementById("Year").value);
-        if (v == 0 && v>31, mn == 0 && v>12) {
+        if (v == 0 && v>31, mn == 0 && mn>12, yr == 0) {
           alert("Invalid date");
           return false;
         }
