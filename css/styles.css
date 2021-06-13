@@ -26,7 +26,7 @@ header>img{
     background-color: rgba(238, 238, 238, 1);
     padding-left: 5%;
 }
-.big>h3{
+.big>h4{
     background-color: rgba(248, 246, 244, 1);
 }
 #big-s{
@@ -40,7 +40,7 @@ header>img{
     margin-left: 5px;
 }
 .des-holder{
-    background-color:rgba(238, 238, 238, 1);
+    /* background-color:rgba(238, 238, 238, 1); */
     border-radius: 10px;
     margin-left: 20px;
 }
@@ -52,6 +52,7 @@ header>img{
 .des>p{
     font-size: 150%;
     font-weight: bold;
+    padding-left: 1%;
 }
 .akan{
     text-align: center;
@@ -95,9 +96,22 @@ hr{
 }
 footer{
     background-color:  rgba(248, 246, 244, 1);
-    margin-top: 5%; padding-left: 10%; padding-right: 10%;
+    margin-top: 5%; padding-left: 10%; padding-right: 10%; padding-bottom: 3%;
 }
 .center{
     align-items: center;
     text-align: center;
+}
+footer>h3{
+    font-size: 130%;
+    font-weight: bolder;
+}
+#social{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15%; margin-right: 15%;
+    margin-top: 2%; margin-bottom: 2%;
+}
+.fa{
+    color: rgba(162, 124, 109, 1);
 }
