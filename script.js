@@ -12,10 +12,12 @@ function calculated(){
 
     if (day<1 || day>31){
       alert("The day you entered is not logic. Enter a valid day.");
-    } else if(month>12 || month<0){
+      return false;
+    } else if(month>11 || month<0){
       alert("Hey, you just made an error. Give it another try with a valid month.");
+      return false;
     };
-
+  
     const d = new Date(year,month, day);
 
     const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
