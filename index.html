@@ -95,17 +95,14 @@
 
                     <!-- gender -->
                     <form class="col-4 gender">
-                        <label for="inputGender" class="form-label">Gender</label>
-                        <select id="inputGender" class="form-select">
-                          <option selected>Choose...</option>
-                          <option>Male</option>
-                          <option>Female</option>
-                        </select>
+                        <label>Gender</label><br>
+                        <input type="radio" name="gender" id="gender" value="male"> Male<br><br>
+                        <input type="radio" name="gender" value="female" > Female<br><br> 
                     </form>
 
                     <!-- submit -->
                     <div class="col-auto">
-                        <button type="submit" class="btn btn-primary" onclick="calculated();validateForm()">SUBMIT</button>
+                        <button type="submit" class="btn btn-primary" onclick="calculated()">SUBMIT</button>
                     </div>
                 </div>
 

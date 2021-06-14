@@ -10,20 +10,31 @@ function calculated(){
     var month = m-1;
     var year = parseInt(document.getElementById("Year").value);
 
+    if (day<1 || day>31){
+      alert("The day you entered is not logic. Enter a valid day.");
+    } else if(month>12 || month<0){
+      alert("Hey, you just made an error. Give it another try with a valid month.");
+    };
+
     const d = new Date(year,month, day);
 
     const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
     document.getElementById("day").innerHTML = "You were born on a "+ days[d.getDay()];
 
-    var x = document.getElementById("inputGender").value;
-
-    if (x="Male"){
+    if (document.getElementById("gender").checked){
+      var choice = 'male';
+      }
+     else {
+      var choice = 'female';
+      }
+      
+    if (choice=== 'male'){
       var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
       document.getElementById("kwasi").innerHTML = "Your Akan Name is " +maleNames[d.getDay()];
 
-    } else if(x="Female"){
+    } else if(choice=== 'female'){
       var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Amaa"];
 
       document.getElementById("kwasi").innerHTML = "Your Akan Name is " +femaleNames[d.getDay()];

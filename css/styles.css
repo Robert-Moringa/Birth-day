@@ -87,6 +87,11 @@ hr{
     color: rgba(174, 169, 168, 1);
     font-weight: bold;
     margin-left: 3%; margin-top: 2%;
+
+}
+
+.gen{
+    margin-left: 2%;
 }
 .results{
     background-color: rgba(248, 246, 244, 1);
