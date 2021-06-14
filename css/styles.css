@@ -1,5 +1,5 @@
 body{
-    background-image: url("Images/Desktop2.jpg");
+    background-image: url("/Images/Desktop2.jpg");
     color: rgba(162, 124, 109, 1);
     font-family: 'Times New Roman', Times, serif;
 }
@@ -50,7 +50,7 @@ header>img{
     background-color: rgba(248, 246, 244, 1);
 }
 .des>p{
-    font-size: 150%;
+    font-size: 120%;
     font-weight: bold;
     padding-left: 1%;
 }
