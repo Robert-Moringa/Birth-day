@@ -26,11 +26,12 @@ function calculated(){
     } else if(x="Female"){
       var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Amaa"];
 
-      document.getElementById("kwasi").innerHTML = "Your Akan Name is " +x;
+      document.getElementById("kwasi").innerHTML = "Your Akan Name is " +femaleNames[d.getDay()];
     } else{
       document.getElementById("kwasi").innerHTML = "Kindly select a your gender";
     }
 
+    
         
 }
 calculated();
